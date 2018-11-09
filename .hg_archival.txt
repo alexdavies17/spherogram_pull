@@ -1,0 +1,6 @@
+repo: 5bd4a7fcbae0bb05464e19215444153c559b4e1f
+node: ee1b15ffed0f89fa6fe4c4d72c4358a70a8dff42
+branch: default
+latesttag: 1.8.1_as_released
+latesttagdistance: 1
+changessincelatesttag: 1
