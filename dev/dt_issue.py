@@ -1,4 +1,4 @@
-import snappy, spherogram, plink
+import snappy, spherogram
 import spherogram.links.orthogonal
 from nsnappytools import appears_hyperbolic
 from sage.all import *
@@ -8,7 +8,6 @@ links = snappy.HTLinkExteriors()
 for i in range(1):
     dt = links.random().DT_code()
     dtm = [tuple([-d for d in comp]) for comp in dt]
-    dtm = dtm
     for d in [dt, dtm]:
         dtc = spherogram.DTcodec(d)
         L = dtc.link()
